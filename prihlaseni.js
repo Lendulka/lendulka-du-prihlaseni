@@ -31,7 +31,6 @@ const check = (event) => {
     } else {
         let paragraph = document.querySelector('.paragraph')
         paragraph.classList.add('paragraph--display')
-        //formular.textContent += paragraph.textContent
         inputPassword.value = ''
     }
 }
